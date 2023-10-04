@@ -108,6 +108,13 @@ legend {
     color: #a6a4a8;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    padding-right: 10px;
+    filter: opacity(30%);
+}
+
 .col-2 {
     display: flex;
     gap: 22px;
